@@ -1,0 +1,24 @@
+.textlimit {
+  white-space: nowrap;
+  width: 600px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.detailHead {
+  padding: 270px;
+  color: #FFF;
+  font-size: 20px;
+}
+
+.customform {
+  padding: 110px;
+}
