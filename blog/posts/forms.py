@@ -7,6 +7,7 @@ class PostForm(forms.ModelForm):
         fields = [
             "title",
             "content",
+            "fileUpload",
         ]
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Title'}),

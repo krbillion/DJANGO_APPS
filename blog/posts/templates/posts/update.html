@@ -2,10 +2,18 @@
 
 {% block content %}
 
-<form method="post" action="" class="customform">
+<form enctype="multipart/form-data" method="post" action="" class="customform">
   <div class="form-group center container">
     {{ post.as_p }}
     {% csrf_token %}
+    <label for="">Category:</label>
+    <select name="category">
+      <option value="other">other</option>
+      <option value="tech">tech</option>
+      <option value="Tutorials">Tutorials</option>
+      <option value="travel">travel</option>
+    </select>
+    <br>
     <input class="btn btn-primary" type="submit" name="" value="update post">
     <a class="btn btn-primary" href="/posts">Go back</a>
   </div>
