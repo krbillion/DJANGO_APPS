@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect,HttpResponseRedirect, reverse
 import time
+
 # Create your views here.
 from carts.models import CartItem, Cart
 from .models import Order
